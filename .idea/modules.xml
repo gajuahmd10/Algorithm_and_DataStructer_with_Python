@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Algorithm_and_DataStructer_with_Python.iml" filepath="$PROJECT_DIR$/.idea/Algorithm_and_DataStructer_with_Python.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/Notebook/.idea/Notebook.iml" filepath="$USER_HOME$/Desktop/Notebook/.idea/Notebook.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/Data Engineering/Pandas/.idea/Pandas.iml" filepath="$USER_HOME$/Desktop/Data Engineering/Pandas/.idea/Pandas.iml" />
     </modules>
   </component>
 </project>

@@ -59,7 +59,7 @@ L = Double_linklist()
 L.add(3)
 L.add(2)
 L.add(12)
-L.remove(2)
+# L.remove(2)
 L.print_list()
 
 

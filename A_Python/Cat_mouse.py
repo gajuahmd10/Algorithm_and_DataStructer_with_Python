@@ -5,3 +5,5 @@ def catAndMouse(x, y, z):
     b = abs(y - z)
 
     return "Cat A" if a < b else "Cat B" if b < a else "Mouse C"
+
+print(catAndMouse(2,4,7))

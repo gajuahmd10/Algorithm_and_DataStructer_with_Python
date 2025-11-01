@@ -8,7 +8,8 @@ def quick_sort(sequence):
     
     item_greater = []
     item_lower = []
-    
+
+
     for item in sequence:
         if item > pivot:
             item_greater.append(item)

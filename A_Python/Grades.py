@@ -1,9 +1,9 @@
 grades = []
 
-for i in range(5):
+for i in range(2):
     a = int(input(i))
     grades.append(a)
-# print(grades)
+print(grades)
 
 for n in grades:
     if n >= 38:

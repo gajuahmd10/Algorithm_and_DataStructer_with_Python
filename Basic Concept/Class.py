@@ -1,5 +1,6 @@
 class Person:
     def __init__(self, person_name: str, phoneNumber: int, date_of_birth: str):
+        print("This is me")
         self.__name = person_name
         self.__phone_number = phoneNumber
         self.__date_of_birth = date_of_birth
@@ -14,7 +15,7 @@ class Person:
         self.__name = new_name
 
     def __hasAnyvalue(self, string):
-        return "0" in string
+        return "1" in string
 
     def get_summery(self):
         return f"Name:{self.__name}, PhoneNumber:{self.__phone_number}, Date of Birth: {self.__date_of_birth}"
@@ -26,10 +27,10 @@ class Person:
 
 a_person = Person("Gaju", 1782057366, "18 july 1995")
 print(a_person)
-a_person.set_name("Gaju Ahmed")
-# print(a_person.get_summery())
-print(a_person)
-a_person.set_name("0Gaju")
-print(a_person.get_name())
+# a_person.set_name("Gaju Ahmed")
+# # print(a_person.get_summery())
+# print(a_person)
+# a_person.set_name("1Gaju")
+# print(a_person.get_name())
 
 

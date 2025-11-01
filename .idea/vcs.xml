@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$USER_HOME$/Desktop/Notebook/ETL/Udacity-Data-Engineering-Projects" vcs="Git" />
+    <mapping directory="$USER_HOME$/Desktop/Notebook/ETL/airflow" vcs="Git" />
+    <mapping directory="$USER_HOME$/Desktop/Notebook/Pandas/pandas_exercises" vcs="Git" />
+    <mapping directory="$USER_HOME$/Desktop/Notebook/Swapnil(Data Mining Project)/Data_Mining" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
 </project>

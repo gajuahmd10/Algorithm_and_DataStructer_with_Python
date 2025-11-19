@@ -5,7 +5,7 @@ def getPermutations(arr):
     else:
         permutations = []
         for i in range(len(arr)):
-            if arr[i] not in arr[:i]:      #just avoid the dubl
+            if arr[i] not in arr[:i]:      # just avoid the duplicate
                 remaining = arr.copy()
                 remaining.pop(i)
                 remainingPermutations = getPermutations(remaining)
@@ -14,7 +14,7 @@ def getPermutations(arr):
                      permutations.append(removedElement + permutation)
         return permutations
 
-print(getPermutations([1,2,3]))
+print(getPermutations([1,2,4]))
 
 
 
